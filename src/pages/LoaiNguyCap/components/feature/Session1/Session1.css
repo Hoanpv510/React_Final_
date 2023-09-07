@@ -1,0 +1,37 @@
+* {
+    font-size: 1rem;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.input__group--animal {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 3px;
+    border: 0.5px solid #cccccc;
+}
+
+.setActive {
+    font-size: 24px;
+}
+
+.qr__code {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../../../../assets/img/qrcode_75832234_undefined.png);
+    background-size: cover;
+}
+
+.btn__back {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: #ffeded;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,67 @@
+.login_admin {
+    width: 100%;
+    font-size: 1rem;
+    min-height: 100vh;
+    background: url("http://wlp.howizbiz.com/static/img/footerLogin.cf032540.svg") no-repeat center;
+    background-size: cover;
+}
+
+.form__login {
+    width: 435px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: rgba(255, 78, 78, 0.24) 0px 3px 8px;
+}
+
+.header_login {
+    background-color: #da2a1c;
+    color: #ffffff;
+    width: 100%;
+    height: 88px;
+}
+
+.input__login {
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.input__login input {
+    width: 100%;
+    padding: 4px;
+    outline: none;
+}
+
+
+.border_input {
+    width: 85%;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+.input__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorLogin {
+    color: #da2a1c;
+    text-align: start;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+
+
+}
+
+.tab_Login {
+    height: 16px;
+}

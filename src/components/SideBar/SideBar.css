@@ -1,0 +1,61 @@
+/* navbar */
+
+
+.side__bar {
+    position: fixed;
+    padding-top: 80px;
+    height: 100vh;
+    max-width: 300px;
+    color: #757575;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #ffffff;
+}
+
+.list_sideBar {
+    padding: 0;
+    >li:hover{
+        background-color: antiquewhite;
+        .item__book:hover{
+            background-color: rgb(246, 246, 246);
+        }
+    }
+}
+
+.item__sideBar {
+    width: 100%;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #000000;
+    padding: 12px 32px;
+    list-style: none;
+    cursor: pointer;
+
+    &>b {
+        margin: 0;
+        padding: 8px 16px;
+    }
+
+    .icon_css {
+        font-size: 1.3rem;
+        color: #757575;
+
+        &>b {
+            font-size: 0.9rem;
+            color: #000000;
+            padding: 8px 16px;
+        }
+    }
+
+
+}
+
+
+.item__book {
+    padding: 8px 0px 8px 32px;
+
+    &>b {
+        font-size: 0.7rem;
+        padding: 8px 16px;
+    }
+}

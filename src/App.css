@@ -1,0 +1,79 @@
+#root {
+    font-size: 1em;
+    font-family: SVN-Product Sans, sans-serif !important;
+    font-weight: 300px !important;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+/* Css Paginate */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px !important;
+}
+
+.pagination li a {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.pagination li {
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.toast__notetify {
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 16px auto;
+    text-align: center;
+    background: #d7d7d7;
+    border: 2px solid #e67171
+}
+
+.toast__notetify--icon {
+    color: red;
+    font-size: 80px;
+}
+
+.btn__deletegroup {
+    display: flex;
+    justify-content: space-around;
+
+    &>button {
+        padding: 5px 32px;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container__bar {
+        display: none;
+    }
+
+    .container__content {
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .bar_icon {
+        display: none;
+    }
+
+    .container__layout {
+        display: block !important;
+    }
+}

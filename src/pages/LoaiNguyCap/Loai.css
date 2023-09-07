@@ -1,0 +1,174 @@
+* {
+    font-size: 1rem;
+}
+
+
+.title__loainguycap {
+    display: flex;
+    align-items: center;
+
+    & .title__icon {
+        font-size: 1.8rem;
+        position: relative;
+        top: -5px;
+        margin: 16px 8px;
+    }
+}
+
+.animal__content {
+    margin-top: 60px;
+    margin-left: 90px;
+    font-size: 1rem;
+    padding: 0;
+    z-index: 99;
+}
+
+.animal__board {
+    max-height: 410px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.list__animal {
+    text-align: start;
+    width: 100%;
+}
+
+.action {
+    justify-content: space-evenly;
+    color: rgb(231, 30, 30) !important;
+
+    .action__icongroup {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+
+        &>div {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(255, 168, 168);
+            }
+        }
+    }
+
+
+}
+
+.icon__action {
+    align-self: center;
+    position: relative;
+    top: 5px;
+}
+
+
+/* search */
+
+.input_seacrh-user {
+    margin: 16px 0;
+    display: flex;
+    border: 0.5px solid gray;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.input__search {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}
+
+.icon_seacrh {
+    margin: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.form_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* addNewAnimal css */
+
+.container__addAnimal {
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.plus {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(231, 30, 30);
+    color: aliceblue;
+    margin-left: 16px;
+    cursor: pointer;
+    border: 0;
+}
+
+
+/* pagination */
+
+.pagination-info {
+    font-size: 0.9rem;
+}
+
+.select__perpage {
+    border: none;
+    width: 100px;
+    border-bottom: 2px solid #cccccc;
+    padding: 5px 14px;
+    box-shadow: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+
+
+}
+
+.select__perpage option {
+    border: 1px solid #ccc;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.dropdown__icon-pag {
+    position: absolute;
+    margin-top: 8px;
+    right: 15px;
+}
+
+.action__icongroup--update {
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+
+    &:hover {
+        background-color: rgb(255, 168, 168);
+    }
+}
+
+.btn__formsearch {
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+}

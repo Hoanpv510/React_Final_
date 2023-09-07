@@ -1,0 +1,111 @@
+.nav__userboad {
+    display: flex;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background: #ffffff;
+    z-index: 1000;
+
+
+}
+
+h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn__bars {
+    width: 50px;
+    height: 50px;
+    margin: 0 16px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: rgb(240, 237, 237);
+
+    }
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+
+    &>p {
+        margin: 0;
+        padding: 0 8px;
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background-color: #117fd3 !important;
+    background-image: url("https://phukhoaanviet.com/wp-content/uploads/anh-mong-to-38.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+    
+}
+
+
+
+.logout__user {
+    position: absolute;
+    max-height: 200px;
+    width: 250px;
+    top: 50px;
+    right: 50px;
+    border: 1px solid #cccc;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #535353;
+    background: #ffffff;
+    z-index: 9999 !important;
+
+    .avatar__logout {
+        width: 100%;
+        margin: 16px auto;
+        width: 50px !important;
+        height: 50px !important;
+        background-color: #117fd3 !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .role_logout {
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 0.8rem;
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: #3C4043 !important;
+    }
+}
+
+.button__logingroup {
+    display: flex;
+    justify-content: space-between;
+
+    &>button {
+        font-size: 14px;
+        font-weight: 700;
+        border: 0;
+    }
+}
